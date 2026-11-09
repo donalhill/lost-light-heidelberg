@@ -1,0 +1,8 @@
+The data products of this project (the measured products of each plate pair, the transient sample, the coverage
+map, the null tests, and the results), as released on Zenodo, are licensed under the Creative Commons Attribution
+4.0 International licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/legalcode
+
+They are derived from the plate scans of the Heidelberg Digitized Astronomical Plates project (HDAP), served by the
+German Astrophysical Virtual Observatory (GAVO), whose terms of use and acknowledgement apply to the scans
+themselves; the catalogue snapshots keep the licences of their sources (Gaia, Pan-STARRS, AllWISE, VizieR, AAVSO).
+The code is under the MIT licence (LICENSE).

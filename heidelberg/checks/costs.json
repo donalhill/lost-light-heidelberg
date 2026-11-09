@@ -1,0 +1,29 @@
+{
+ "pairs": 1350,
+ "scans": 2644,
+ "measure_vcpu": 192,
+ "dry_pairs": 52,
+ "dry_controls": 6,
+ "vcpu_s_per_pair": 1106.0192307692307,
+ "measure_hours": 2.1601938100961537,
+ "part_one_hours": 1.96875,
+ "part_two_hours": 3.425480769230769,
+ "calibration_hours": 0.2866666666666667,
+ "scan_copy_hours": 11.595041666666667,
+ "scans_gb": 2583.367622784,
+ "products_gb": 199.57756179807694,
+ "storage_months": 12,
+ "cost": {
+  "measure": 29.178169831730767,
+  "part_one": 8.864099999999999,
+  "part_two": 15.422884615384614,
+  "calibration": 3.872064,
+  "dry_runs": 5.172757333333333,
+  "scan_copy": 4.4316249249999995,
+  "storage": 96.10529031461907
+ },
+ "total": 163.0468910200678,
+ "aws_rounded": 163,
+ "rerun_allowance": 163,
+ "request": 326
+}

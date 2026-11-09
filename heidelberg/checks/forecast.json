@@ -1,0 +1,13 @@
+{
+ "shadow_equivalent_pairs": 208,
+ "sources": 970.0,
+ "sources_in_shadow": 150.0,
+ "sources_exact": 965.8203589743589,
+ "sources_in_shadow_exact": 152.20983458045038,
+ "exposure_median_min": 150.0,
+ "shadow_motion_median_deg": 3.557679454732014,
+ "shadow_motion_range_deg": [
+  2.2567346978608613,
+  4.519823742641025
+ ]
+}

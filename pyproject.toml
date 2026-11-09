@@ -1,0 +1,8 @@
+[project]
+name = "lost-light-heidelberg"
+version = "0.2.0"
+description = "Earth's-shadow test on simultaneous Heidelberg twin plates (the rebuild)"
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["heidelberg"]

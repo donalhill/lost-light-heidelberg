@@ -1,0 +1,11 @@
+{
+  "title": "Do flashes on simultaneous Heidelberg plates avoid Earth's shadow? Pre-registered analysis code and settings",
+  "upload_type": "software",
+  "description": "The code, settings, and pinned inputs of a pre-registered test for Project Lost Light: whether two-plate transients on the Bruce astrograph's twin plates at Heidelberg-Königstuhl (1900 to 1957) are scarcer in Earth's shadow at geostationary radius. The plate scans are those of the Heidelberg Digitized Astronomical Plates, served by the German Astrophysical Virtual Observatory (GAVO).",
+  "creators": [
+    {"name": "Hill, Donal"}
+  ],
+  "license": "MIT",
+  "keywords": ["photographic plates", "transients", "Earth's shadow", "pre-registration", "Project Lost Light", "Heidelberg", "Bruce astrograph"],
+  "access_right": "open"
+}

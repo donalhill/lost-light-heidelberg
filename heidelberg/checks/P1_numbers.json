@@ -1,0 +1,66 @@
+{
+ "pairs": 46,
+ "accepted": 44,
+ "selected": 39,
+ "finals": 33,
+ "chance": 33.62,
+ "finals_no_point_like": 40,
+ "chance_no_point_like": 44.12,
+ "G_half_median": 14.75,
+ "G_half_range": [
+  13.25,
+  16.75
+ ],
+ "point_like_loss": 0.0445,
+ "fidelity": {
+  "shortfall": [
+   0.0083,
+   0.0026
+  ],
+  "minor_axis": [
+   -0.0013,
+   0.0011
+  ],
+  "noise": [
+   1.0041,
+   0.0025
+  ]
+ },
+ "controls": {
+  "pairs": 5,
+  "finals": 4,
+  "chance": 4.0
+ },
+ "overdispersion": [
+  1.41635687732342,
+  0.1923872566191619
+ ],
+ "lags": {
+  "10": 4.75,
+  "20": 4.0,
+  "40": 4.875,
+  "60": 4.875
+ },
+ "gradient": [
+  -0.7156994242869622,
+  -0.6183764658591546
+ ],
+ "gradient_sd": [
+  0.2829616366805391,
+  0.16966004580199864
+ ],
+ "phrases": [
+  "Of these, 44 had both solutions accepted and 39 passed the selection",
+  "the shortfall of their agreement between plates against Gaia stars was 0.0083 \u00b1 0.0026",
+  "the offset of their minor axes \u22120.0013 \u00b1 0.0011 dex",
+  "the ratio of their image noise to the stars' 1.004 \u00b1 0.003",
+  "at a median G of 14.75 (13.25 to 16.75 across pairs)",
+  "which lowers their efficiency by 4.4%",
+  "33 against 33.6 with the point-like cut, and 40 against 44.1 before it",
+  "different-night pairs gave 4 surviving sources against a chance estimate of 4.0",
+  "(a Poisson upper limit of 5.2 on the five pairs, with the chance estimate taken as exact)",
+  "the scatter among the eight shifts is 1.42 \u00b1 0.19 times that of Poisson counts",
+  "shifts of 10, 20, 40, and 60 arcseconds gave 4.8, 4.0, 4.9, and 4.9 survivors",
+  "g = \u22120.72 \u00b1 0.28 east and \u22120.62 \u00b1 0.17 north, bootstrapped over 39 pairs"
+ ]
+}

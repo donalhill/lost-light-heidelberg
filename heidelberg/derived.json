@@ -1,0 +1,18 @@
+{
+ "_about": "Values measured on the tuning pairs that the record run uses (heidelberg/stages/derived.py); not to be edited by hand",
+ "tuning_background": {
+  "value": 0.8621794871794872,
+  "unit": "per pair",
+  "source": "the tuning pairs' chance estimate, 33.6250, over the 39 pairs selected"
+ },
+ "overdispersion": {
+  "value": 1.41635687732342,
+  "se": 0.1923872566191619,
+  "source": "the pooled variance of the 8 shifts' chance counts over their mean, on the 39 pairs selected; its error from 4000 bootstrap resamples of the pairs"
+ },
+ "g_half_median": {
+  "value": 14.75,
+  "unit": "mag",
+  "source": "the median over the 39 pairs selected of the G at which star-like flashes are found at half the peak efficiency"
+ }
+}

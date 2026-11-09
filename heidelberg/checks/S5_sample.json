@@ -1,0 +1,73 @@
+{
+ "pairs": 1321,
+ "shadow": 442,
+ "sunlit": 879,
+ "dt_median": 12.0,
+ "dt_95": 15.0,
+ "sep_median": 8.544275142502336,
+ "sep_90": [
+  6.913327499815695,
+  11.171956211383193
+ ],
+ "exposure_equal": 0.9477668433005298,
+ "edge_crossing": 279,
+ "mostly": 67,
+ "wholly": 42,
+ "neither": 96,
+ "removed_shadow": 39,
+ "removed_sunlit": 83,
+ "sunlit_drawn": 962,
+ "plates_eligible": 7532,
+ "plates": 8789,
+ "gavo_12h": 427,
+ "gavo_12h_before_1949": 8,
+ "logbook_plates": 12,
+ "logbook_years": [
+  "1905",
+  "1909",
+  "1926"
+ ],
+ "antisun_median": [
+  7.095295370107779,
+  20.77608713145928
+ ],
+ "ecl_lat_median": [
+  -0.9171338887899664,
+  1.9486985077883652
+ ],
+ "ecl_lat_std_diff": -0.4468068276007064,
+ "area": [
+  34.15274130434782,
+  0.5969588020685763
+ ],
+ "pairs_all": 2768,
+ "pairs_1949": 67,
+ "touched_1949": 1,
+ "window_first_year": 1900,
+ "year_first": 1900,
+ "year_last": 1957,
+ "shadow_year_first": 1900,
+ "shadow_year_last": 1957,
+ "shadow_year_last_before_poss": 1937,
+ "archive_split_year": 1935,
+ "pairs_before_split": 2647,
+ "pairs_from_split": 121,
+ "shadow_last_date": "30 September 1957",
+ "shadow_last_days_before_end": 4,
+ "phrases": [
+  "Of the 67 Bruce twin pairs exposed between 1949 and October 1957, the years of POSS-I, Earth's shadow touches the central field of only one",
+  "There are 2,768 such pairs",
+  "start a median of 12 seconds apart (95% within 15 seconds)",
+  "their centres lie a median of 8.5 arcminutes apart",
+  "6.9 to 11.2 arcminutes for 90% of pairs",
+  "their exposures are equal on 95% of pairs",
+  "The record set is the 442 pairs whose test area Earth's shadow touches, together with 879 sunlit pairs",
+  "Of the 442 shadow pairs, 279 have the shadow's edge (where a point is in shadow for between 5% and 95% of the exposure) over more than a tenth of the test area, 67 have at least 95% of it in full shadow, and 42 lie wholly in shadow",
+  "The test areas are nearly equal, 34.2 \u00b1 0.6 square degrees on the tuning pairs",
+  "On twelve plates from 1905, 1909, and 1926 the catalogue's start and end agree with the scanned observation logbooks",
+  "GAVO's published mid-exposure is 12 hours early on 427 plates whose exposure ran past 0 h UT (eight of them before 1949)",
+  "removes 39 shadow pairs and 83 sunlit pairs",
+  "distance from the anti-solar point (the latter's medians 7.1 and 20.8 degrees for shadow and sunlit pairs)",
+  "not in ecliptic latitude (standardised difference of the signed latitude \u22120.45)"
+ ]
+}

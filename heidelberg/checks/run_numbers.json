@@ -1,0 +1,10 @@
+{
+ "pilot": {
+  "static_upper": 5.1535190266375706,
+  "static_upper_per_pair": 1.0307038053275142,
+  "static_pairs": 5
+ },
+ "sample": {
+  "control_pairs": 29
+ }
+}

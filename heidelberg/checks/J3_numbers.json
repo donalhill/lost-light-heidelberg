@@ -1,0 +1,194 @@
+{
+ "tuning_background": 0.8621794871794872,
+ "critical_value": 4.277,
+ "critical_value_se": 0.081,
+ "critical_share": 0.2,
+ "null_toys_per_share": 16000,
+ "null_shares": [
+  0.0,
+  0.05,
+  0.075,
+  0.1,
+  0.125,
+  0.15,
+  0.2,
+  0.25,
+  0.35,
+  0.5
+ ],
+ "power": {
+  "0.10_kappa1": {
+   "likelihood": 0.158,
+   "check": 0.167,
+   "claim": 0.049
+  },
+  "0.15_kappa1": {
+   "likelihood": 0.525,
+   "check": 0.251,
+   "claim": 0.18
+  },
+  "0.25_kappa1": {
+   "likelihood": 0.972,
+   "check": 0.554,
+   "claim": 0.541
+  },
+  "0.10_kappa0.5": {
+   "likelihood": 0.064,
+   "check": 0.111,
+   "claim": 0.019
+  },
+  "0.15_kappa0.5": {
+   "likelihood": 0.203,
+   "check": 0.158,
+   "claim": 0.062
+  },
+  "0.25_kappa0.5": {
+   "likelihood": 0.489,
+   "check": 0.293,
+   "claim": 0.179
+  }
+ },
+ "power_mc_se_max": 0.015807561481771943,
+ "size_map_correct": {
+  "no_glints": 0.0,
+  "glints_0p10": 0.006,
+  "glints_0p50": 0.032,
+  "check_no_glints": 0.049,
+  "check_glints_0p10": 0.075,
+  "check_glints_0p50": 0.318
+ },
+ "size_map_uniform": {
+  "no_glints": 0.056,
+  "glints_0p10": 0.059,
+  "glints_0p50": 0.066,
+  "check_no_glints": 0.465,
+  "check_glints_0p10": 0.511,
+  "check_glints_0p50": 0.701
+ },
+ "size_map_half": {
+  "no_glints": 0.021,
+  "glints_0p10": 0.027,
+  "glints_0p50": 0.049,
+  "check_no_glints": 0.19,
+  "check_glints_0p10": 0.251,
+  "check_glints_0p50": 0.51
+ },
+ "refused_share": 0.152,
+ "power_refused": {
+  "0.10": {
+   "likelihood": 0.137,
+   "check": 0.135,
+   "claim": 0.031
+  },
+  "0.15": {
+   "likelihood": 0.452,
+   "check": 0.238,
+   "claim": 0.144
+  },
+  "0.25": {
+   "likelihood": 0.944,
+   "check": 0.531,
+   "claim": 0.513
+  }
+ },
+ "blur_sets": 10,
+ "power_blur": {
+  "0.10": {
+   "likelihood": 0.168,
+   "check": 0.168,
+   "claim": 0.043
+  },
+  "0.15": {
+   "likelihood": 0.555,
+   "check": 0.286,
+   "claim": 0.188
+  },
+  "0.25": {
+   "likelihood": 0.969,
+   "check": 0.583,
+   "claim": 0.579
+  }
+ },
+ "limit_chance_scale": {
+  "0p9": {
+   "0.00": {
+    "median": 0.04
+   },
+   "0.06": {
+    "median": 0.1,
+    "coverage": 0.955
+   },
+   "0.10": {
+    "median": 0.15,
+    "coverage": 0.945
+   },
+   "0.15": {
+    "median": 0.15,
+    "coverage": 0.942
+   }
+  },
+  "1p1": {
+   "0.00": {
+    "median": 0.04
+   },
+   "0.06": {
+    "median": 0.1,
+    "coverage": 0.948
+   },
+   "0.10": {
+    "median": 0.15,
+    "coverage": 0.951
+   },
+   "0.15": {
+    "median": 0.15,
+    "coverage": 0.948
+   }
+  }
+ },
+ "limit_blur": {
+  "0.00": {
+   "median": 0.04
+  },
+  "0.06": {
+   "median": 0.1,
+   "coverage": 0.95
+  },
+  "0.10": {
+   "median": 0.15,
+   "coverage": 0.944
+  },
+  "0.15": {
+   "median": 0.15,
+   "coverage": 0.933
+  }
+ },
+ "robustness": {
+  "as specified": 0.0,
+  "overdispersion 1.0": 0.0,
+  "overdispersion 2.0": 0.013,
+  "static 0.4 per pair": 0.032,
+  "static 0.8 per pair": 0.042,
+  "edge-heavy background a = 1": 0.0,
+  "edge-heavy a = 3": 0.0,
+  "centre-heavy a = -0.64 (the tuning set's measured profile)": 0.001,
+  "static 0.8, edge a = 3, overdispersion 2": 0.031,
+  "glints f 0.25 unsuppressed, efficiency 0.8 on shadow pairs: unweighted fit": 0.121,
+  "the same, fit weighted by each pair's efficiency": 0.074,
+  "background map half the fitted gradient": 0.048,
+  "background map 1.5 x the fitted gradient": 0.0,
+  "background uniform (the fitted map wrong)": 0.061,
+  "static 1.2 per pair (above the different-night bound)": 0.042,
+  "static 1.2, edge a = 3, overdispersion 2": 0.058
+ },
+ "expected_limit": {
+  "median": 0.04,
+  "lo16": 0.02,
+  "hi84": 0.08
+ },
+ "coverage": {
+  "0.06": 0.945,
+  "0.10": 0.946,
+  "0.15": 0.942
+ },
+ "belt_toys": 2000
+}

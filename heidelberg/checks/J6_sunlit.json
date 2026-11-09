@@ -1,0 +1,157 @@
+{
+ "shadow": 442,
+ "critical_share": 0.2,
+ "cases": {
+  "0p25": {
+   "per_shadow": 0.25,
+   "sunlit": 110,
+   "critical_value": 4.408533050844062,
+   "power_0p1": {
+    "likelihood": 0.162,
+    "check": 0.159,
+    "claim": 0.046
+   },
+   "power_0p15": {
+    "likelihood": 0.383,
+    "check": 0.261,
+    "claim": 0.139
+   },
+   "power_0p25": {
+    "likelihood": 0.887,
+    "check": 0.578,
+    "claim": 0.544
+   },
+   "limit": {
+    "lo16": 0.04,
+    "median": 0.08,
+    "hi84": 0.15
+   }
+  },
+  "0p5": {
+   "per_shadow": 0.5,
+   "sunlit": 221,
+   "critical_value": 4.24927891299662,
+   "power_0p1": {
+    "likelihood": 0.165,
+    "check": 0.168,
+    "claim": 0.042
+   },
+   "power_0p15": {
+    "likelihood": 0.455,
+    "check": 0.274,
+    "claim": 0.165
+   },
+   "power_0p25": {
+    "likelihood": 0.948,
+    "check": 0.589,
+    "claim": 0.572
+   },
+   "limit": {
+    "lo16": 0.02,
+    "median": 0.08,
+    "hi84": 0.12
+   }
+  },
+  "1": {
+   "per_shadow": 1,
+   "sunlit": 442,
+   "critical_value": 4.181053568102016,
+   "power_0p1": {
+    "likelihood": 0.164,
+    "check": 0.184,
+    "claim": 0.052
+   },
+   "power_0p15": {
+    "likelihood": 0.497,
+    "check": 0.283,
+    "claim": 0.182
+   },
+   "power_0p25": {
+    "likelihood": 0.948,
+    "check": 0.58,
+    "claim": 0.563
+   },
+   "limit": {
+    "lo16": 0.02,
+    "median": 0.06,
+    "hi84": 0.1
+   }
+  },
+  "2": {
+   "per_shadow": 2,
+   "sunlit": 884,
+   "critical_value": 4.633286690108342,
+   "power_0p1": {
+    "likelihood": 0.146,
+    "check": 0.187,
+    "claim": 0.039
+   },
+   "power_0p15": {
+    "likelihood": 0.512,
+    "check": 0.26,
+    "claim": 0.167
+   },
+   "power_0p25": {
+    "likelihood": 0.964,
+    "check": 0.572,
+    "claim": 0.556
+   },
+   "limit": {
+    "lo16": 0.02,
+    "median": 0.04,
+    "hi84": 0.08
+   }
+  },
+  "3": {
+   "per_shadow": 3,
+   "sunlit": 1326,
+   "critical_value": 4.716551733250161,
+   "power_0p1": {
+    "likelihood": 0.128,
+    "check": 0.172,
+    "claim": 0.045
+   },
+   "power_0p15": {
+    "likelihood": 0.512,
+    "check": 0.288,
+    "claim": 0.183
+   },
+   "power_0p25": {
+    "likelihood": 0.976,
+    "check": 0.581,
+    "claim": 0.574
+   },
+   "limit": {
+    "lo16": 0.0,
+    "median": 0.04,
+    "hi84": 0.06
+   }
+  },
+  "4": {
+   "per_shadow": 4,
+   "sunlit": 1768,
+   "critical_value": 4.109855631457685,
+   "power_0p1": {
+    "likelihood": 0.185,
+    "check": 0.145,
+    "claim": 0.041
+   },
+   "power_0p15": {
+    "likelihood": 0.608,
+    "check": 0.275,
+    "claim": 0.202
+   },
+   "power_0p25": {
+    "likelihood": 0.973,
+    "check": 0.594,
+    "claim": 0.587
+   },
+   "limit": {
+    "lo16": 0.02,
+    "median": 0.04,
+    "hi84": 0.06
+   }
+  }
+ },
+ "rule": 2
+}

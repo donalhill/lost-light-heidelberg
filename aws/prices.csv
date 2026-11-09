@@ -1,0 +1,8 @@
+type,usd_per_hour
+r7i.xlarge,0.2814
+r7i.4xlarge,1.1256
+r7i.8xlarge,2.2512
+r7i.16xlarge,4.5024
+c7i.2xlarge,0.3822
+c7i.16xlarge,3.0576
+r7i.48xlarge,13.5072
