@@ -4,12 +4,19 @@ A pre-registered test for Project Lost Light. The Bruce astrograph at Heidelberg
 field at the same moment through two lenses onto two plates. A brief flash of light lands on both plates, whereas an
 emulsion defect affects only one, so a source on both plates of a twin pair is not a plate defect. If such sources
 include glints of sunlight from objects in high orbit, they should be scarcer where Earth's shadow falls at
-geostationary radius. This repository measures the twin pairs of 1900 to 1937, selects the sources on both plates,
+geostationary radius. This repository measures the twin pairs of 1900 to 1957, selects the sources on both plates,
 and tests for that deficit.
 
 The pre-registration is `draft/preregistration_v2.md`, rendered from its template (`draft/preregistration_v2.src.md`)
 with every number filled from `work/results.json`. Every setting of the analysis, with its reason, is in
 `config/analysis.json`.
+
+## The freeze and this repository's history
+
+`FREEZE.json` records the SHA-256 of the code, the settings, the pair lists, and the inputs manifest, with one checksum
+over that list, which is posted with the pre-registration. `python3 tools/freeze.py check FREEZE.json` confirms that a
+copy matches it. This repository starts from the frozen files as one commit. Its working history was left out because
+it held an accidentally committed crash dump, and the commit named in `FREEZE.json` belongs to that history.
 
 ## What is here
 
